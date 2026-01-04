@@ -1,6 +1,6 @@
 # Unity Intelligence 0.1.0
 
-A powerful embedded AI assistant for the Unity Editor, providing seamless integration with **Claude (Anthropic)**, **GPT-5+ (OpenAI)**, and **Gemini (Google)** models.
+A powerful embedded AI assistant for the Unity Editor, providing seamless integration with Anthropic, Google and OpenAI models.
 
 ![Unity 2021.3+](https://img.shields.io/badge/Unity-2021.3%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
