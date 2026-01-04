@@ -4,13 +4,31 @@ A powerful embedded AI assistant for the Unity Editor, providing seamless integr
 
 ![Unity 2021.3+](https://img.shields.io/badge/Unity-2021.3%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![GitHub](https://img.shields.io/github/stars/ctmorley/unity-intelligence?style=social)](https://github.com/ctmorley/unity-intelligence)
+
+## Screenshots
+
+### AI Assistant Chat Window
+![AI Assistant Window](screenshots/ai-assistant-window.png)
+*Dockable chat interface with model selector and streaming responses*
+
+### Project Settings
+![Settings Panel](screenshots/settings-panel.png)
+*Configure API keys for Claude, GPT-4, and Gemini*
+
+### AI Creating GameObjects
+![AI in Action](screenshots/ai-in-action.png)
+*Ask the AI to create objects, write scripts, and modify your scene*
+
+---
 
 ## Features
 
 - **Multi-Provider Support**: Switch between Claude, GPT-4, and Gemini models
 - **150+ AI-Callable Tools**: Complete control over Unity Editor operations
 - **Real-time Streaming**: SSE-based streaming responses
-- **Function Calling**: AI can execute Unity operations directly
+- **Agentic Behavior**: AI executes tasks autonomously - doesn't just explain
+- **Console Diagnostics**: AI can read errors and fix them automatically
 - **Secure API Keys**: Stored locally with obfuscation
 
 ---
@@ -30,7 +48,7 @@ Add to your `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.unity-intelligence": "https://github.com/your-username/unity-intelligence.git"
+    "com.unity-intelligence": "https://github.com/ctmorley/unity-intelligence.git"
   }
 }
 ```
