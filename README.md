@@ -14,11 +14,7 @@ A powerful embedded AI assistant for the Unity Editor, providing seamless integr
 
 ### Project Settings
 ![Settings Panel](screenshots/settings-panel.png)
-*Configure API keys for Claude, GPT-4, and Gemini*
-
-### AI Creating GameObjects
-![AI in Action](screenshots/ai-in-action.png)
-*Ask the AI to create objects, write scripts, and modify your scene*
+*Configure API keys for Claude, GPT-4, and Gemini with customizable system prompt*
 
 ---
 
